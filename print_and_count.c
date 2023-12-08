@@ -82,7 +82,7 @@ int print_and_count(va_list arg_list, const char *format)
 		}
 		else
 		{
-			Il_putchar(current_char);
+			_putchar(current_char);
 			count_chars++;
 			format_current_index++;
 		}

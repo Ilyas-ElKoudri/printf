@@ -1,8 +1,8 @@
-.\" Manpage for Il_printf.
+.\" Manpage for _printf.
 .\" Contact AUTHORS to understand the function and its test cases.
 .TH man 8 "06 May 2010" "1.0" "_printf man page"
 .SH NAME
-Il_printf \- print formatted text to the standard output stream
+_printf \- print formatted text to the standard output stream
 .SH SYNOPSIS
 printf FORMAT [ARGUMENT]...
 
@@ -30,8 +30,10 @@ This is a custom printf function for ALX printf project which mimic the built in
     output version information and exit
 
 .SH OPTIONS
-The Il_printf does not take any options.
+The _printf does not take any options.
 .SH BUGS
 No known bugs, since ALX checkers are GREEN.
 .SH AUTHOR
-Ilyas-Elkoudri
+Ilyas Elkoudri
+Github : Ilyas-Elkoudri
+E-mail : ilyasskodri@gmail.com

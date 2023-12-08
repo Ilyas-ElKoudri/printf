@@ -16,12 +16,12 @@ int (*print)();
 } arg_indicator_type;
 
 /*core functions*/
-int Il_printf(const char *format, ...);
+int _printf(const char *format, ...);
 int print_and_count(va_list arg_list, const char *format);
 int validate_format(const char *format);
 
 /* printing functions*/
-int Il_putchar(char c);
+int _putchar(char c);
 int print_percent(void);
 int print_character(va_list char_arg);
 int print_string(va_list string_arg);

@@ -10,6 +10,6 @@ int print_character(va_list  char_arg)
 {
 		char character = (char)va_arg(char_arg, int);
 
-		Il_putchar(character);
+		_putchar(character);
 		return (1);
 }

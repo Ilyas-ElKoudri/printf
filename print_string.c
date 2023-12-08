@@ -20,30 +20,30 @@ int print_string(va_list  string_arg)
 		{
 			while (string[iterator] != '\0')
 			{
-				Il_putchar(string[iterator]);
+				_putchar(string[iterator]);
 				char_count++;
 				iterator++;
 			}
 		}
 		else
 		{
-			Il_putchar('(');
-			Il_putchar('n');
-			Il_putchar('u');
-			Il_putchar('l');
-			Il_putchar('l');
-			Il_putchar(')');
+			_putchar('(');
+			_putchar('n');
+			_putchar('u');
+			_putchar('l');
+			_putchar('l');
+			_putchar(')');
 			char_count = 6;
 		}
 	}
 	else
 	{
-			Il_putchar('(');
-			Il_printf('n');
-			Il_putchar('u');
-			Il_putchar('l');
-			Il_putchar('l');
-			Il_putchar(')');
+			_putchar('(');
+			_putchar('n');
+			_putchar('u');
+			_putchar('l');
+			_putchar('l');
+			_putchar(')');
 			char_count = 6;
 	}
 	return (char_count);

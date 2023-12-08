@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * Il_printf - This is a custom printf function for ALX printf project
+ * _printf - This is a custom printf function for ALX printf project
  * It is to write on the standard output
  * @format: It is a character string that may contain normal text
  * in addition to zero or more directive
@@ -11,7 +11,7 @@
  * Return: On success, it returns number of characters printed
  * excluding the null byte used to end output to strings
  */
-int Il_printf(const char *format, ...)
+int _printf(const char *format, ...)
 {
 	int is_valid = 0;
 	int total_printed_symbols = -1;

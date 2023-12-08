@@ -7,6 +7,6 @@
 */
 int print_percent(void)
 {
-	Il_putchar('%');
+	_putchar('%');
 	return (1);
 }

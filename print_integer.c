@@ -14,12 +14,12 @@ int print_integer(va_list  integer)
 
 	if (num == 0)
 	{
-		Il_putchar('0');
+		_putchar('0');
 		return (1);
 	}
 	if ((signed long) num < 0)
 	{
-		Il_putchar('-');
+		_putchar('-');
 		printed_number *= -1;
 		counter++;
 	}
@@ -38,10 +38,10 @@ int print_integer(va_list  integer)
 	while (temp)
 	{
 		current = (temp % 10) + '0';
-		Il_putchar(current);
+		_putchar(current);
 		temp /= 10;
 	}
 	while (idx--)
-		Il_putchar('0');
+		_putchar('0');
 	return (counter);
 }
